@@ -20,12 +20,13 @@ public class Color{
 	}
 
 	/* The method for changing the color
-	 * TODO: Revise the code so that it return true only if the input color is valid
-	 * 	and different from the exisitng color before making the change
 	 */
 	public boolean  changeColor(String newColor){
+		if (this.color.equals(newColor) || !isColorValid(newColor)) {
+			return false;
+		}
+			
 		this.color = newColor;
-
 		return true;
 	}
 

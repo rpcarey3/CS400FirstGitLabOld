@@ -1,5 +1,8 @@
 /*
  * Test the use of the Color method
+ *  Robin Carey
+ *  rpcarey3@wisc.edu
+ *  rcarey
  */
 import java.util.*;
 

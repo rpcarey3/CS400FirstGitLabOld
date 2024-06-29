@@ -1,5 +1,8 @@
 /*
  *	Color class
+ *  Robin Carey
+ *  rpcarey3@wisc.edu
+ *  rcarey
  */
 public class Color{
 	private String color;
